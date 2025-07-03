@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine */
+     background-image: url(https://images.unsplash.com/photo-1676057868280-d6b982d82859?q=80&w=1189&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f8f8ff;
+}
+
+#nav{
+    height: auto;
+    width: 100%;
+    /* background-color: rgba(9, 9, 9, 0.927); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#logo{
+    margin-left: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    line-height: 100%;
+    /* color: #ffff; */
+
+}
+
+#middle{
+    display: flex;
+    
+}
+#middle li{
+    list-style: none;
+    
+}
+
+#middle li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+
+    
+}
+
+#account i{
+    font-size: 20px;
+    font-weight: 600;
+    /* color: #ffff; */
+}
+
+#account a{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: black;
+    text-decoration: none;
+    color: #ffff;
+
+}
+
+#center-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.link{
+    padding: 20px;
+    margin-top: 170px;
+    rotate: 90deg;
+}
+.link a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    
+
+}
+
+.heading{
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.heading h3{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+
+}
+
+.heading h1{
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+}
+
+.heading h5{
+    /* font-family: Gilroy; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+
+.all_box{
+    width: 70px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border1{
+    border-right: 2px #f8f8ff solid;
+}
+
+.border2{
+    border-right: 1px #f8f8ff solid;
+}
+
+.all_box2{
+    width: 69.7px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+     margin-top: 11%;
+    height: 2000px;
+    width: 100%;
+    /* background-color:  rgba(64, 17, 121, 0.864); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( rgba(6, 6, 6, 0.992) 20% ,  rgba(6, 6, 6, 0.768)60%
+    );
+}
+
+.content-box{
+    margin-top: 11%;
+    height: 1800px;
+    width: 80%;
+    /* background-color: red; */
+}
+
+.content01{
+    height: 500px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading1{
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.heading1 h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:700;
+    font-size: 10px;
+}
+
+.heading1 h2{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.heading1 h4{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.heading1 h5{
+    margin-top: 10px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.content02{
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(234, 154, 154); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+
+.heading2{
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.heading2 h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:700;
+    font-size: 10px;
+}
+
+.heading2 h2{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.heading2 h4{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.heading2 h5{
+    margin-top: 10px;
+}
+
+.img2{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.img2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.content03{
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.heading3{
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.heading3 h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:700;
+    font-size: 10px;
+}
+
+.heading3 h2{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.heading3 h4{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.heading3 h5{
+    margin-top: 10px;
+}
+
+.img3{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.img3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:  rgba(6, 6, 6, 0.768);
+     padding: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+
+.foot{
+    margin: 70px;
+    padding: 100px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: lightblue; */
+    
+}
+
+.footer-left h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-left p{
+    opacity: 40%;
+}
+
+.footer-middle{
+    line-height: 25px;
+}
+
+.footer-middle h3{
+    color: rgb(249, 208, 84);
+}
+
+.footer-right{
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.footer-right h3{
+    color: rgb(249, 208, 84);
+}
